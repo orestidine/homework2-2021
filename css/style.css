@@ -1,12 +1,12 @@
 body {
-    font-style: "Times New Roman";
+    font-family: "Times New Roman", "sans-serif";
     background-color: black ;
     color: white;
 }
 h1 {
     font-size: 64px;
-    position: center;
-    padding: 10px
+    padding: 10px;
+    text-align: center;
 }
 h2 {
     font-size: 32px;
@@ -23,7 +23,7 @@ img {
     margin-right: auto;
 }
 div {
-    height: 150px;
+    min-height: 150px;
     padding: 25px;
 }
 #red {
@@ -38,7 +38,6 @@ div {
     background-color: #ffff00;
     text-align: right;
     color: black;
-    text-shadow: #c7e2c7;
 }
 #green {
       background-color: #008000;
@@ -48,4 +47,7 @@ footer p {
         padding-bottom: 10px;
         padding-right: 10px;
         text-align: center;
+}
+#yellow h2 {
+    text-shadow: 4px 4px 2px #c7e2c7;
 }
